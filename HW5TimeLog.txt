@@ -1,0 +1,13 @@
+Time Log:
+
+First I transfered over the methods used to read a file in from homework 4, and added a new array list to keep track of unique words in the file. (20 mins)
+
+Then I spent time trying to figure out how to compare the files so that the number of times a word appears in the original text document would be found. This was a large problem area for me. At first I tried converting my array list into an array,
+and then using for loops to check a variable against another variable in the array. This resulted in every time I ran the program each instance of a word printed out and showing to the screen. I spent about an hour trying to mess around with this 
+code to get it to work. I was unable to do so. Then I spent about 30 minutes trying to get nested if statements inside of a for loop to check against the unique word array and count that way, but this also didn't work to print each unique word once to the screen
+with the total number of times said word appeared in the document next to it. Finally I remembered that I could compare items from my array lists against each other and counting that way. This fixed my problem. (2 hours 15 minutes)
+
+Then I tried using a string buffer append to write to the file, but this resulted in all of the words and numbers being smushed together, so after manipulating that for a bit to no result I decided to just write straight to the file in each loop, and create a new line
+with each loop, which cleaned up the look of my output file. (30 mins)
+
+Then I ran sorts on my lists. (5 mins)
